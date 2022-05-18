@@ -1,0 +1,30 @@
+{
+    "store.account": {
+        "blocks": [
+            "flex-layout.row#account-title",
+            "flex-layout.row#account-wrapper"
+        ],
+        "parent": {
+            "challenge": "challenge.profile"
+        }
+    },
+    "flex-layout.row#account-title": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "account-title"
+        },
+        "children": ["rich-text#account-title"]
+    },
+    "rich-text#account-title": {
+        "props": {
+            "blockClass": "account-title",
+            "text": "Minha Conta"
+        }
+    },
+    "flex-layout.row#account-wrapper": {
+        "props": {
+            "blockClass": "account-wrappers"
+        },
+        "children": ["my-account"]
+    }
+}

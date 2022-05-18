@@ -1,0 +1,21 @@
+{
+    "dynamic-menu": {
+        "props": {
+            "isMobile": false,
+            "items": [
+                {
+                    "iconSrc": "string",
+                    "title": "agencia-m3",
+                    "href": "/lugar-algum",
+                    "internal": true,
+                    "content": "teste"
+                }
+            ]
+        }
+    },
+    "dynamic-menu#mobile": {
+        "props": {
+            "isMobile": true
+        }
+    }
+}

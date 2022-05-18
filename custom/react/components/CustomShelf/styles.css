@@ -1,0 +1,56 @@
+.CarouselContainer {
+    max-width: 1170px;
+    width: 80%;
+    margin: 50px auto;
+    height: 400px;
+}
+
+.CarouselContainer :global(.agenciam3-m3-custom-0-x-sliderLayoutContainer),
+.CarouselContainer :global(.agenciam3-m3-custom-0-x-sliderTrackContainer),
+.CarouselContainer :global(.agenciam3-m3-custom-0-x-sliderTrack) {
+    height: 100%;
+}
+
+.CarouselContainer :global(.agenciam3-m3-custom-0-x-sliderRightArrow) {
+    right: -50px;
+}
+
+.CarouselContainer :global(.agenciam3-m3-custom-0-x-sliderLeftArrow) {
+    left: -50px;
+}
+
+.ProductContainer {
+    width: 97%;
+    border: 1px solid #cecece;
+    /* border-radius: 5px; */
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+}
+
+.ImageContainer {
+    height: 70%;
+    overflow: hidden;
+}
+
+.ProductInfo {
+    height: 30%;
+    padding: 1rem 0.625rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.ProductName {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.ProductPrice {
+    font-size: 1rem;
+    font-weight: 400;
+}
